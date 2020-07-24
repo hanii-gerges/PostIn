@@ -18,9 +18,9 @@
 
   <!-- Custom fonts for this template -->
   <link href="{{secure_asset('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
-  <link href='{{secure_asset('https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic')}}' rel='stylesheet' type='text/css'>
-  <link href='{{secure_asset('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800')}}' rel='stylesheet' type='text/css'>
-  <link href="{{secure_asset('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="{{secure_asset('css/clean-blog.min.css')}}" rel="stylesheet">
@@ -70,7 +70,6 @@
 
   <!-- Footer -->
   {{-- @include('inc.footer') --}}
-  <p class="copyright text-muted">Copyright &copy; Your Website 2020</p>
   <!-- Bootstrap core JavaScript -->
   <script src="{{secure_asset('vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{secure_asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
