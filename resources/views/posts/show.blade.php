@@ -5,7 +5,7 @@
 @endsection
 @section('subtitle')
     {{-- should be $post->subtitle --}}
-    <span class="subheading">stupid dummy foolish site</span>
+    <span class="subheading">{{$post->subtitle}}</span>
 @endsection
 @section('content')
 <article>
