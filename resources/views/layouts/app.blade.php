@@ -69,7 +69,8 @@
   <hr>
 
   <!-- Footer -->
-  @include('inc.footer')
+  {{-- @include('inc.footer') --}}
+  <p class="copyright text-muted">Copyright &copy; Your Website 2020</p>
   <!-- Bootstrap core JavaScript -->
   <script src="{{secure_asset('vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{secure_asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
