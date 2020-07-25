@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+Route::get('/','PostsController@index');
 
 //post routs
 Route::get('/posts','PostsController@index');
