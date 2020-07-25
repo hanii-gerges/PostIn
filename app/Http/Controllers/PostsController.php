@@ -19,14 +19,14 @@ class PostsController extends Controller
     */
     public function index()
     {
-        $posts=Post::orderBy('created_at','asc')->paginate(5);
+        $posts=Post::orderBy('created_at','asc')->paginate(3);
 
         return view('posts.index')->with('posts',$posts);
     }
     public function userIndex($id)
     {
         $user=User::find($id);
-        $posts=$user->posts()->orderBy('created_at','asc')->paginate(5);
+        $posts=$user->posts()->orderBy('created_at','asc')->paginate(3);
         return view('posts.index')->with('posts',$posts);
     }
 
