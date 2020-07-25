@@ -106,6 +106,7 @@ class PostsController extends Controller
         ]);
         
         $post->title=request('title');
+        $post->subtitle=request('subtitle');
         $post->body=request('body');
         $post->save();
 

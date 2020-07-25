@@ -4,7 +4,6 @@
     <h1>{{$post->title}}</h1>
 @endsection
 @section('subtitle')
-    {{-- should be $post->subtitle --}}
     <span class="subheading">{{$post->subtitle}}</span>
 @endsection
 @section('content')
